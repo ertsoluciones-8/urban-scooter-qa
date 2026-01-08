@@ -37,7 +37,7 @@ Tipo de pruebas:
 
 urban-scooter-qa/
 │
-├── test-cases-api-orders.md
+├── test-cases/
 │ ├── TC-05 – Validar cancelación de orden en base de datos con track válido
 │
 ├── bug-reports/
@@ -58,7 +58,7 @@ Los casos de prueba documentan:
 - Cumplimiento del contrato (status codes y body)
 - Actualización correcta de información en base de datos
 
-📁 Carpeta: `test-cases-api-orders.md`
+📁 Carpeta: `test-cases/`
 
 ---
 
@@ -107,6 +107,3 @@ Enfoque en:
 - LinkedIn: https://www.linkedin.com/in/esther-rosado-qa/  
 - GitHub: https://github.com/ertsoluciones-8
 - Email: esther.rosadotrujillo@gmail.com
-
-## 👤 Rol
-QA Junior / Manual Tester

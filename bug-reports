@@ -1,0 +1,43 @@
+# BUG-003 – La orden no se marca como cancelada en base de datos con track válido
+
+## Descripción
+Al enviar una solicitud válida de cancelación mediante el endpoint  
+`PUT /api/v1/orders/cancel`, la orden **no se marca como cancelada en la base de datos**.
+
+El API responde con un error que impide la actualización del estado de la orden,
+incumpliendo el comportamiento esperado del sistema.
+
+## Pasos para reproducir
+1. Enviar la siguiente solicitud:
+2. Incluir el body:
+```json
+{
+  "track": 751437
+}
+3. Verificar la respuesta del API.
+
+4. Consultar la base de datos utilizando el track 751437.
+
+## Resultado esperado
+API: 
+Código HTTP 200 OK
+Response: 
+{ "ok": true }
+Base de datos:
+La orden con track 751437 debe quedar marcada como cancelada.
+
+## Resultado actual
+
+API:
+Código HTTP 400 Bad Request
+Mensaje: "Not enough data for search."
+Base de datos:
+La orden con track 751437 continúa existiendo sin cambios.
+
+## Severidad
+Crítica
+
+## Entorno
+OS: Windows 11 Pro
+Versión: 24H2
+Arquitectura: 64-bit

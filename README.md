@@ -44,7 +44,7 @@ urban-scooter-qa/
 │ ├── BUG-003 – La orden no se marca como cancelada en base de datos con track válido
 │
 ├── checklists/
-│ └── api-testing-checklist.md
+│ └── Checklist – Urban Scooter
 │
 └── README.md
 
@@ -100,17 +100,13 @@ Enfoque en:
 - Validación de base de datos
 - Reporte y seguimiento de bugs
 
-📌 Este repositorio forma parte de mi portafolio profesional para posiciones
-de **QA Junior / Manual Tester**.
-
 ---
 
 ## 📬 Contacto
 
-- LinkedIn: *(agrega aquí tu URL)*
-- GitHub: *(este repositorio)*
-- Email: *(opcional)*
-
+- LinkedIn: https://www.linkedin.com/in/esther-rosado-qa/  
+- GitHub: https://github.com/ertsoluciones-8
+- Email: esther.rosadotrujillo@gmail.com
 
 ## 👤 Rol
 QA Junior / Manual Tester

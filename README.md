@@ -41,8 +41,7 @@ urban-scooter-qa/
 │ ├── TC-05 – Validar cancelación de orden en base de datos con track válido
 │
 ├── bug-reports/
-│ ├── BUG-002-cancel-order-no-success-response.md
-│ └── BUG-003-cancel-order-not-updated-db.md
+│ ├── BUG-003 – La orden no se marca como cancelada en base de datos con track válido
 │
 ├── checklists/
 │ └── api-testing-checklist.md

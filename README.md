@@ -38,8 +38,7 @@ Tipo de pruebas:
 urban-scooter-qa/
 │
 ├── test-cases-api-orders.md
-│ ├── TC-04-cancel-order-valid-track-success-response.md
-│ └── TC-05-cancel-order-update-db.md
+│ ├── TC-05 – Validar cancelación de orden en base de datos con track válido
 │
 ├── bug-reports/
 │ ├── BUG-002-cancel-order-no-success-response.md
@@ -71,7 +70,7 @@ Los bugs documentados incluyen:
 - Incumplimiento del contrato del API
 - Errores que afectan la persistencia de datos
 
-Cada bug contiene:
+El bug contiene:
 - Pasos para reproducir
 - Resultado esperado
 - Resultado actual
